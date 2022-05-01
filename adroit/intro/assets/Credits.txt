@@ -1,0 +1,39 @@
+Stylesheet & Script
+
+Animate CSS =
+site: https://daneden.github.io/animate.css/
+
+Bootstrap 4 =
+site: https://getbootstrap.com/
+
+Jquery =
+site: https://jquery.com/
+
+Owl Carousel 2 = 
+site: https://owlcarousel2.github.io/OwlCarousel2/
+
+WOW =
+site: https://wowjs.uk/
+
+Stickyfill =
+site: https://wd.dizaina.net/en/scripts/stickyfill/
+
+Perfect Scrollbar =
+site: https://github.com/mdbootstrap/perfect-scrollbar
+
+========================================================================================
+
+All images/photos
+
+https://unsplash.com/
+https://behance.com/
+https://dribbble.com/shots/10976326-Finance-App-UI-Design
+
+========================================================================================
+
+Font icons
+
+Themify icons =
+site: https://themify.me/themify-icons
+
+

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<style>
+#container {
+  width: 1000px;
+  height: 1000px;
+  position: relative;
+  background: lightblue;
+}
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius : 45%;
+  background-color: red;
+}
+
+#animate1 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius : 45%;
+  background-color: red;
+}
+
+#animate2 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius : 45%;
+  background-color: red;
+}
+</style>
+<body>
+<p><button onclick="myMove() ; myMove1() ; myMove2()">Click Me</button></p> 
+
+
+<div id ="container">
+  <div id ="animate" align = "center">90</div>
+  <div id ="animate1" align = "center">100</div>
+  <div id ="animate2" align = "center">98</div>
+</div>
+
+<script>
+function myMove() {
+  let id = null;
+  const elem = document.getElementById("animate");   
+  let pos = 0;
+  clearInterval(id);
+  id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 150) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + "px"; 
+      elem.style.left = pos + "px"; 
+    }
+  }
+}
+
+function myMove1() {
+  let id = null;
+  const elem = document.getElementById("animate1");   
+  let pos = 0;
+  let pos2 = 100;
+  let pos3 = 100;
+  clearInterval(id);
+  id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 190) {
+      clearInterval(id);
+    } else {
+      pos++;
+      pos2++;
+      pos3++;
+      elem.style.top = pos + "px"; 
+      elem.style.left = pos2 + "px";
+      elem.style.right = pos3 + "px";
+    }
+  }
+}
+
+function myMove2() {
+  let id = null;
+  const elem = document.getElementById("animate2");   
+  let pos = 0;
+  let pos2 = -10;
+  let pos3 = 100;
+  clearInterval(id);
+  id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 260) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      pos2++;
+      pos3++;
+      elem.style.top = pos + "px"; 
+      elem.style.left = pos2 + "px"; 
+      elem.style.right = pos3 + "px";
+    }
+  }
+}
+
+
+</script>
+
+</body>
+</html>

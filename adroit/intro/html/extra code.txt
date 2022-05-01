@@ -1,0 +1,447 @@
+<!-- FAQ -->
+<div class="page-section bg-light">
+  <div class="container">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-lg-5 py-3 wow fadeInUp">
+        <h2 class="mb-4">Frequently <br> asked question</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, minus id consectetur accusantium illum necessitatibus, non quia sit laboriosam aut libero. Maiores neque velit modi, mollitia nostrum alias quibusdam et.</p>
+
+        <p class="fg-primary fw-medium">Need more helps?</p>
+        <a href="#" class="btn btn-gradient btn-split-icon rounded-pill">
+          <span class="icon mai-call-outline"></span> Contact Us
+        </a>
+      </div>
+      <div class="col-lg-7 py-3 no-scroll-x">
+        <div class="accordion accordion-gap" id="accordionFAQ">
+          <div class="accordion-item wow fadeInRight">
+            <div class="accordion-trigger" id="headingFour">
+              <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Payment types that won't work</button>
+            </div>
+            <div id="collapse1" class="collapse" aria-labelledby="headingFour" data-parent="#accordionFAQ">
+              <div class="accordion-content">
+                <p>You can't add these payment methods to Google Pay:</p>
+                <ul>
+                  <li>Wire transfers</li>
+                  <li>Bank transfers</li>
+                  <li>Western Union</li>
+                  <li>Moneygram</li>
+                  <li>Virtual credit cards (VCC)</li>
+                  <li>Health savings account (HSA)</li>
+                  <li>Any escrow type of payment</li>
+                  <li>Prepaid cards if you use automatic payments</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item wow fadeInRight">
+            <div class="accordion-trigger" id="headingFive">
+              <button class="btn" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">Already seeing payment methods</button>
+            </div>
+            <div id="collapse2" class="collapse show" aria-labelledby="headingFive" data-parent="#accordionFAQ">
+              <div class="accordion-content">
+                <p>New to Google Pay and already seeing payment methods? If you paid for something through Google in the past, Google Pay saved your card.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item wow fadeInRight">
+            <div class="accordion-trigger" id="headingSix">
+              <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Your transaction cannot be completed</button>
+            </div>
+            <div id="collapse3" class="collapse" aria-labelledby="headingSix" data-parent="#accordionFAQ">
+              <div class="accordion-content">
+                <p>If you see this error message, wait 24 hours and try to add your card again.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item wow fadeInRight">
+            <div class="accordion-trigger" id="headingSeven">
+              <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Credit & Debit cards</button>
+            </div>
+            <div id="collapse4" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionFAQ">
+              <div class="accordion-content">
+                <ul>
+                  <li>American Express</li>
+                  <li>MasterCard</li>
+                  <li>Visa</li>
+                  <li>Discover (U.S. only)</li>
+                  <li>JCB (Japan and U.S. only)</li>
+                  <li>Visa Electron (outside U.S. only)</li>
+                  <li>Elo credit cards (Brazil only; Elo debit cards aren’t accepted)</li>
+                </ul>
+                <p>The types of cards accepted by Google services vary by location and product.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item wow fadeInRight">
+            <div class="accordion-trigger" id="headingEight">
+              <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">Send money to friends or family</button>
+            </div>
+            <div id="collapse5" class="collapse" aria-labelledby="headingEight" data-parent="#accordionFAQ">
+              <div class="accordion-content">
+                <p>This feature is only available in the US. For the US territories, this is supported only if the debit card was issued under a US-licensed bank. If you'd like to know in advance whether your payment to or from a US territory will go through, please check with your card issuing bank.</p>
+
+                <p>You can use Google Pay to send money to friends and family or to someone using their email address or phone number. Google Pay charges no fees.</p>
+                  
+                <p>If you have a problem sending money, here is a list of likely reasons.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item wow fadeInRight">
+            <div class="accordion-trigger" id="headingNine">
+              <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">How long it usually takes to send or receive money</button>
+            </div>
+            <div id="collapse6" class="collapse" aria-labelledby="headingNine" data-parent="#accordionFAQ">
+              <div class="accordion-content">
+                <p>For the best Google Pay experience, we recommend using a debit card whenever you send or receive money from friends and family. With a debit card, sending and receiving money is usually the fastest option.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Testimonials -->
+<div class="page-section">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-6 wow fadeIn">
+        <h2>Meet client satisfaction by using product</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="owl-carousel stack-carousel mt-5 wow fadeInUp">
+      <div class="item">
+        <div class="ratings fs-small py-3">
+          <span class="icon mai-star"></span>
+          <span class="icon mai-star"></span>
+          <span class="icon mai-star"></span>
+          <span class="icon mai-star"></span>
+          <span class="icon mai-star-half"></span>
+        </div>
+  
+        <div class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem distinctio esse eum laudantium necessitatibus autem perferendis quod ipsum eaque.</div>
+  
+        <div class="avatar mt-3">
+          <div class="avatar-img">
+            <img src="../assets/img/person/person_1.png" alt="">
+          </div>
+          <div class="avatar-caption">
+            <p class="mb-0 fw-medium fg-primary">Galih Raugana</p>
+            <div class="fs-vsmall fw-medium">UI Designer</div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="ratings fs-small py-3">
+          <span class="icon mai-star"></span>
+          <span class="icon mai-star"></span>
+          <span class="icon mai-star"></span>
+          <span class="icon mai-star"></span>
+          <span class="icon mai-star-half"></span>
+        </div>
+  
+        <div class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem distinctio esse eum laudantium necessitatibus autem perferendis quod ipsum eaque.</div>
+  
+        <div class="avatar mt-3">
+          <div class="avatar-img">
+            <img src="../assets/img/person/person_2.png" alt="">
+          </div>
+          <div class="avatar-caption">
+            <p class="mb-0 fw-medium fg-primary">Galih Raugana</p>
+            <div class="fs-vsmall fw-medium">Graphic Designer</div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="ratings fs-small py-3">
+          <span class="icon mai-star"></span>
+          <span class="icon mai-star"></span>
+          <span class="icon mai-star"></span>
+          <span class="icon mai-star"></span>
+          <span class="mai-star"></span>
+        </div>
+  
+        <div class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem distinctio esse eum laudantium necessitatibus autem perferendis quod ipsum eaque.</div>
+  
+        <div class="avatar mt-3">
+          <div class="avatar-img">
+            <img src="../assets/img/person/person_3.png" alt="">
+          </div>
+          <div class="avatar-caption">
+            <p class="mb-0 fw-medium fg-primary">Galih Raugana</p>
+            <div class="fs-vsmall fw-medium">Data Analyst</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Pricing Table -->
+<div class="page-section">
+  <div class="container">
+    <div class="row justify-content-center text-center wow fadeInUp">
+      <div class="col-lg-6">
+        <h2 class="mb-3">Get awesome features, without extra charges</h2>
+        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores non magnam, quis aliquid dolor magni</p>
+
+        <div class="btn-group btn-group-toggle rounded-pill btn-switch" data-toggle="buttons">
+          <label class="btn active">
+            <input type="radio" name="options" id="option1" checked> Monthly
+          </label>
+          <label class="btn">
+            <input type="radio" name="options" id="option2"> Annually
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="pricing-table mt-5 wow fadeInUp">
+      <div class="pricing-item active no-transform">
+        <div class="pricing-header">
+          <h5>Business Plan</h5>
+          <h1 class="fw-normal">$49.00</h1>
+        </div>
+        <div class="pricing-body">
+          <ul class="theme-list">
+            <li class="list-item">Push Notification</li>
+            <li class="list-item">Unlimited Bandwith</li>
+            <li class="list-item">Realtime Database</li>
+            <li class="list-item">Monthly Backup</li>
+            <li class="list-item">24/7 Support</li>
+          </ul>
+        </div>
+        <button class="btn btn-dark">Choose Plan</button>
+      </div>
+      <div class="pricing-item">
+        <div class="pricing-header">
+          <h5>Starter Plan</h5>
+          <h1 class="fw-normal">$24.00</h1>
+        </div>
+        <div class="pricing-body">
+          <ul class="theme-list">
+            <li class="list-item">Push Notification</li>
+            <li class="list-item">Unlimited Bandwith</li>
+            <li class="list-item">Realtime Database</li>
+            <li class="list-item">Monthly Backup</li>
+            <li class="list-item">24/7 Support</li>
+          </ul>
+        </div>
+        <button class="btn btn-dark">Choose Plan</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="iconic-content">
+              <h5>Fully Secured</h5>
+              <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+            </div>
+          </div>
+          div class="iconic-item wow fadeInUp">
+            <div class="iconic-content">
+              <h5>Fully Secured</h5>
+              <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+            </div>
+            <div class="iconic-md iconic-text bg-info fg-white rounded-circle">
+              <span class="mai-shield-checkmark"></span>
+            </div>
+          </div>
+          <div class="iconic-item wow fadeInUp">
+            <div class="iconic-content">
+              <h5>Easy Monitoring</h5>
+              <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+            </div>
+            <div class="iconic-md iconic-text bg-indigo fg-white rounded-circle">
+              <span class="mai-desktop-outline"></span>
+            </div>
+
+
+          </div>
+          <div class="iconic-item wow fadeInUp">
+            <div class="iconic-content">
+              <h5>Fully Secured</h5>
+              <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+            </div>
+
+            <div class="iconic-content">
+              <h5>Easy Monitoring</h5>
+              <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+            </div>
+            <div class="iconic-md iconic-text bg-indigo fg-white rounded-circle">
+              <span class="mai-desktop-outline"></span>
+            </div>
+
+            <div class="iconic-content">
+              <h5>Powerful Features</h5>
+              <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+            </div>
+          </div>
+          <div class="iconic-item wow fadeInUp">
+            <div class="iconic-md iconic-text bg-success fg-white rounded-circle">
+              <span class="mai-aperture"></span>
+            </div>
+            <div class="iconic-content">
+              <h5>Fully Secured</h5>
+              <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+            </div>
+          </div>
+
+          <div class="iconic-md iconic-text bg-info fg-white rounded-circle">
+              <span class="mai-shield-checkmark"></span>
+            </div>
+
+            <div class="iconic-md iconic-text bg-indigo fg-white rounded-circle">
+              <span class="mai-desktop-outline"></span>
+            </div>
+
+            <div class="iconic-md iconic-text bg-warning fg-white rounded-circle">
+              <span class="mai-speedometer-outline"></span>
+            </div>
+
+            <div class="iconic-md iconic-text bg-success fg-white rounded-circle">
+              <span class="mai-aperture"></span>
+            </div>
+
+            <!-- Clients -->
+<div class="page-section">
+  <div class="container">
+    <div class="text-center wow fadeIn">
+      <h2 class="mb-4">Our partners</h2>
+      <p>Become a <a href="#">partners?</a></p>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 justify-content-center align-items-center mt-5">
+      <div class="p-3 wow zoomIn">
+        <div class="img-place client-img">
+          <img src="../assets/img/clients/alter_sport.png" alt="">
+        </div>
+      </div>
+      <div class="p-3 wow zoomIn">
+        <div class="img-place client-img">
+          <img src="../assets/img/clients/cleaning_service.png" alt="">
+        </div>
+      </div>
+      <div class="p-3 wow zoomIn">
+        <div class="img-place client-img">
+          <img src="../assets/img/clients/creative_photo.png" alt="">
+        </div>
+      </div>
+      <div class="p-3 wow zoomIn">
+        <div class="img-place client-img">
+          <img src="../assets/img/clients/global_tv.png" alt="">
+        </div>
+      </div>
+      <div class="p-3 wow zoomIn">
+        <div class="img-place client-img">
+          <img src="../assets/img/clients/net_sport_tv.png" alt="">
+        </div>
+      </div>
+      <div class="p-3 wow zoomIn">
+        <div class="img-place client-img">
+          <img src="../assets/img/clients/news_digital_tv.png" alt="">
+        </div>
+      </div>
+      <div class="p-3 wow zoomIn">
+        <div class="img-place client-img">
+          <img src="../assets/img/clients/spa_beauty.png" alt="">
+        </div>
+      </div>
+      <div class="p-3 wow zoomIn">
+        <div class="img-place client-img">
+          <img src="../assets/img/clients/trivier_group.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<a href="#" class="btn btn-dark">Get Started</a>extras\
+
+
+
+<section id="visualization">
+<div class="page-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 py-3">
+        <div class="iconic-list">
+          <div class="iconic-item wow fadeInUp">
+            <div class="iconic-md iconic-text bg-warning fg-white rounded-circle">
+              <span class="mai-analytics"></span>
+            </div>
+            <div class="iconic-content">
+              <h5>Stack diagrams and stuff</h5>
+              <p class="fs-small">  <br><br><br> </p>
+            </div>
+            
+          </div>
+
+          <div class="iconic-item wow fadeInUp">
+            <div class="iconic-md iconic-text bg-warning fg-white rounded-circle">
+              <span class="mai-bicycle"></span>
+            </div>
+            <div class="iconic-content">
+              <h5>Step byStep evaluation</h5>
+              <p class="fs-small">  <br><br><br> </p>
+            </div>
+            
+          </div>
+          <div class="iconic-item wow fadeInUp">
+            <div class="iconic-md iconic-text bg-warning fg-white rounded-circle">
+              <span class="mai-book"></span>
+            </div>
+            <div class="iconic-content">
+              <h5>Easy Learning</h5>
+              <p class="fs-small">   <br><br><br> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 py-3 wow zoomIn">
+        <div class="img-place mobile-preview shadow">
+          <img src="../assets/img/Flowchart-of-the-Dijkstra-algorithm.png" alt="">
+        </div>
+      </div>
+      <div class="col-lg-4 py-3">
+        <div class="iconic-list">
+          <div class="iconic-item wow fadeInUp">
+            <div class="iconic-md iconic-text bg-indigo fg-white rounded-circle">
+              <span class="mai-bulb"></span>
+            </div>
+            <div class="iconic-content">
+              <h5>Powerful Features and understanding</h5>
+              <p class="fs-small">  <br> <br><br></p>
+            </div>
+          </div>
+          <div class="iconic-item wow fadeInUp">
+            <div class="iconic-md iconic-text bg-indigo fg-white rounded-circle">
+              <span class="mai-cafe"></span>
+            </div>
+            <div class="iconic-content">
+              <h5>Securely learn your concepts</h5>
+              <p class="fs-small">  <br><br><br> </p>
+            </div>
+          </div>
+          <div class="iconic-item wow fadeInUp">
+            <div class="iconic-md iconic-text bg-indigo fg-white rounded-circle">
+              <span class="mai-stats-chart-outline"></span>
+            </div>
+            <div class="iconic-content">
+              <h5>Easy Monitoring</h5>
+              <p class="fs-small">   <br><br><br></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<hr>
+<div>

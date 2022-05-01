@@ -1,0 +1,134 @@
+* {	
+	font-family: 'Source Sans Pro', sans-serif;	
+	margin:0;
+	padding:0;  
+	}
+	.not-valid{
+		background-color: #de606030;
+	}
+  #info{
+		font-weight: bold;
+		color:red;
+	}
+  form div {
+	  text-align: left;
+	  margin: 5px 3px;
+	  font-size: 22px;	
+  }
+  
+  body {
+    background-image: url("b1.jpg");
+
+  }
+  
+  input[type="radio"] {
+
+	  margin: 4px 90px 20px -105px;
+  } 
+  
+  .gend {
+	  display: flex;
+	  margin-left: 50px;
+  }
+  
+  .dgend {
+		text-align: center;
+    margin: 6px 26px 15px 4px;
+  }
+  
+  input[type="date"] {
+	  font-size:16px;
+	  color:#252e387a;
+  }
+  
+  input::placeholder {
+	  font-size:16px;
+	  color:#252e387a;
+  }
+  
+  form {
+	  position:relative;
+	  width:365px;
+	  height:100%;
+	  margin:50px auto 100px;
+	  text-align:center;
+	  background:#eeeeef;
+	  padding:40px;
+	  -webkit-border-radius:40px 0 0 0;
+	  -moz-border-radius:40px 0 0 0;
+		border-radius: 50px 7px 50px 7px;
+		box-shadow: -9px -11px 0px 2px #eef1fb38, inset 10px 7px 0px 0px #a3a7b1f2;
+	 
+  }
+  
+  h4 {
+	  font-family: 'Source Sans Pro', sans-serif;
+	  font-size:2em;
+	  font-weight:300;
+	  margin: -24px 13px 12px 12px;
+	  color:#7f8c8d;
+	  text-shadow:1px 1px 0px white;
+  }
+  
+  input {
+	  display:block;
+	  width:315px;
+	  padding:14px;
+	  -webkit-border-radius:6px;
+	  -moz-border-radius:6px;
+	  border-radius:6px;
+	  border:0;
+	  margin-bottom: 20px;
+	  color:#7f8c8d;
+	  font-weight:600;
+	  font-size:16px;
+  }
+  
+  input:focus {
+	  background:#fafafa;
+  }
+ 
+  
+  .button {
+		position: relative;
+    float: left;
+    width: 145px;
+    margin-top: 10px;
+    background: #62b8ff;
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 1px 1px 0px #2d7baf;
+    box-shadow: -7px -6px 0px #9c9c9cc4;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    outline:none;
+}
+input {
+    display: block;
+    width: 315px;
+    padding: 14px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    border: 0;
+    margin-bottom: 20px;
+    color: #7f8c8d;
+    font-weight: 600;
+    font-size: 16px;
+  }  
+   
+  .button:hover {
+	 background-color:#3a5e7bdb;;
+	 border-bottom-right-radius: 32%;
+	  border-bottom-left-radius: 32%;
+  } 
+  
+   input [type="checkbox"] {
+	   width:10px;
+   }
+  
+  .button {
+  cursor: pointer;
+  font-weight: bold;    
+  }

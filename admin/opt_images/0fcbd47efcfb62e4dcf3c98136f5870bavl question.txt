@@ -1,0 +1,4 @@
+#). …………………………… is a binary search tree whose left subtree and right subtree differ in height by at most 1 unit and whose left and right subtrees are themselves AVL trees.
+
+Ans.
+B) AVL Tree

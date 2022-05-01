@@ -1,0 +1,90 @@
+<?php
+session_start();
+?>
+
+
+<!DOCTYPE html>
+<html lang="en" style="background-image: url(f2.svg);">
+<head>
+  <meta charset="UTF-8">
+  <title>Dijkstra's Algorithm Visualizer</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <div id="nav">
+    <ol>
+    <li style="padding-left: 50px; padding-top: 10px;" id="img"><img src="logof.png" alt="Logo" width="200"></li>
+    <li style="float:right; padding: 20px; padding-right: 40px;" id="bck"><a href="../../manpreet folder/html/introduction.php"><i class ="" ></i> << Back</a></li>
+  </ol>
+  </div>
+ 
+<h1 style="color: #3366cc; font-size: 40px;">Djikstra's Algorithm Visualization.</h1>
+<!-- partial:index.partial.html -->
+<h2 style="color: darkslateblue;">Instructions:</h2>
+ <p style="font-size: 22px;">
+  Dijkstra's algorithm is an algorithm for finding the shortest paths between nodes in a graph.<br>
+  This visualization helps you visualize the working of djikstra's algorithm.<br>
+1. Select option helps you change the positions of the nodes.<br>
+2. Add point let's you add more nodes in graph.<br>
+3. You can add edges and connect the remaining nodes as per your wish.<br> 
+4. You can also specify the nodes to calculate the shortest path from. <br> 
+5. Run the algorithm and wait till the shortest path is highlighted green. <br>
+6. You can hence visualize and understand the Djikstra's algorithm through this visualization. <br> 
+</p>
+<canvas id="canvas"></canvas>
+<div class="controller">
+  <ul>
+    <li><button id="btn_select">Select</button></li>
+    <li><button id="btn_addPoint">Add Point</button></li>
+    <li><button id="btn_addEdge">Add Edge</button></li>
+    <li id="wrap_animationSpeed">
+      <label>Animation Speed <span>(1500ms)</span></label>
+      <input type="range" min="0" max="3000" step="500" value="1500"></li>
+  </ul>
+  <p>Shortest path </br>from <select id="from"></select> to <select id="to"></select>
+  </p>
+<button id="btn_run_algorithm"><i class="fa fa-play icon"></i> Run Algorithm</button>
+</div>
+<div id="notification">Loading...</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
+ 
+</body>
+<style type="text/css">
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 60px;
+    overflow: hidden;
+    height: 75px;
+    }
+
+    #img,#bck {
+    float: left;
+
+    }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 60px;
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    li a:hover:not(.active) {
+    color:orange;
+    }
+    
+    .active {
+    background-color: orange;
+    }
+    li:last-child {
+    border-right: none;
+    }
+    
+</style>
+</html>

@@ -1,0 +1,164 @@
+html {
+	margin: 0%;
+	background-image: url("../assets/img/Flat-Mountains.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: lightblue;
+}
+ul li {
+	list-style-type: none;
+	border: 3px solid black;
+	padding: 10px;
+	padding-left: 35px;
+	width: 7%;
+	margin: 1%;
+	align-items: center;
+	border-radius: 25%;
+	font-size: large;
+	font-weight: bolder;
+	display: inline-block;
+}
+li:nth-child(1) {
+	background-color: #f9ed69;
+}
+
+li:nth-child(2) {
+	background-color: #f07b3f;
+}
+
+li:nth-child(3) {
+	background-color: #03f5e1;
+}
+li:nth-child(4) {
+	background-color: #17b978;
+}
+li:nth-child(5) {
+	background-color: #f10751;
+}
+li:nth-child(6) {
+	background-color: #0075f6;
+}
+li:nth-child(7) {
+	background-color: #e4f169;
+}
+li:nth-child(8) {
+	background-color: #a2ef44;
+}
+
+#text {
+	width: 30%;
+	margin-bottom: 1%;
+}
+input[type=text] {
+	height: 30%;
+	border: 4px solid #aaa;
+	border-radius: 5px;
+	outline: none;
+	padding: 15px;
+	font-size: medium;
+	box-sizing: border-box;
+	transition: .3s;
+}
+
+input[type=text]:focus {
+	border-color: dodgerBlue;
+	box-shadow: 0 0 12px 0 dodgerBlue;
+}
+.content {
+	margin: 1%;
+}
+h1 {
+	margin-bottom: 5%;
+	font-family: 'Anton', sans-serif;
+	font-weight: 900;
+}
+.line {
+	position: relative;
+	top: 50%;
+	width: 14em;
+	margin-top: 1%;
+	border-right: 2px solid rgba(255, 255, 255, 0.75);
+	font-size: 4em;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	transform: translateY(-50%);
+}
+/*Animation*/
+.anim-typewriter {
+	animation: typewriter 6s steps(40) 1s 1 normal both, blinkTextCursor 1000ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+	from {
+		width: 0;
+	}
+	to {
+		width: 16em;
+	}
+}
+
+@keyframes blinkTextCursor {
+	from {
+		border-right-color: rgba(255, 255, 255, 0.75);
+	}
+	to {
+		border-right-color: transparent;
+	}
+}
+#stack {
+	font-size: xx-large;
+	font-weight: bold;
+	font-family: 'Times New Roman', cursive;
+}
+#pop_stack {
+	font-size: xx-large;
+	font-weight: bold;
+	font-family: 'Times New Roman', cursive;
+}
+label {
+	font-size: xx-large;
+	font-family: 'Times New Roman', cursive;
+}
+#pop,
+#push {
+	font-weight: 900;
+	font-size: larger;
+	letter-spacing: 2px;
+	padding: 4px;
+	transition: 0.8s;
+	position: relative;
+	width: 10%;
+	overflow: hidden;
+}
+#push {
+	margin-right: 3.5%;
+}
+#pop {
+	margin-left: 6%;
+}
+#push:hover {
+	background: rgb(5, 245, 5);
+	width: 11%;
+}
+#pop:hover {
+	background-color: rgb(255, 0, 0);
+	width: 11%;
+}
+@media screen and (min-width: 480px) {
+	h2 {
+		font-size: small;
+	}
+	li {
+		width: 100px;
+		padding-left: 20px;
+	}
+	#push {
+		width: 100px;
+	}
+}
+@media screen and (min-width: 768px) {
+	li {
+		width: auto;
+	}
+}
